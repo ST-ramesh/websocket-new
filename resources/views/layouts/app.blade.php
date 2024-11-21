@@ -14,6 +14,35 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+
+    <style>
+        .to-do-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        .to-do-header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .to-do-list {
+            margin-top: 10px;
+        }
+
+        .to-do-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .to-do-check {
+            margin-right: 10px;
+        }
+
+    </style>
+
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             <livewire:layout.navigation />
